@@ -5,6 +5,7 @@ import { AuroraBackgroundDemo } from "./components/AuroraBackground";
 import { HeroParallaxDemo } from "./components/HeroParalax";
 import { ThreeDCardDemo } from "./components/ThreeDCard";
 import { AppleCardsCarouselDemo } from "./components/AppleCardCarousel";
+import { MacbookScrollDemo } from "./components/MacbookScrollDemo";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
 			<ThreeDCardDemo/>
 			<AuroraBackgroundDemo/>
 			<AppleCardsCarouselDemo/>
+			<MacbookScrollDemo/>
 		</div>
 	);
 }
