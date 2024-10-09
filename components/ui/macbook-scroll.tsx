@@ -1,29 +1,29 @@
 "use client";
-import React, { useEffect, useMemo, useRef, useState } from "react";
-import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
   IconBrightnessDown,
   IconBrightnessUp,
+  IconCaretDownFilled,
+  IconCaretLeftFilled,
   IconCaretRightFilled,
   IconCaretUpFilled,
   IconChevronUp,
+  IconCommand,
   IconMicrophone,
   IconMoon,
   IconPlayerSkipForward,
   IconPlayerTrackNext,
   IconPlayerTrackPrev,
+  IconSearch,
   IconTable,
   IconVolume,
   IconVolume2,
   IconVolume3,
+  IconWorld,
 } from "@tabler/icons-react";
-import { IconSearch } from "@tabler/icons-react";
-import { IconWorld } from "@tabler/icons-react";
-import { IconCommand } from "@tabler/icons-react";
-import { IconCaretLeftFilled } from "@tabler/icons-react";
-import { IconCaretDownFilled } from "@tabler/icons-react";
+import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import React, { useEffect, useRef, useState } from "react";
 
 export const MacbookScroll = ({
   src,
