@@ -16,7 +16,7 @@ export function MacbookScrollDemo() {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={"https://images.unsplash.com/photo-1728327510887-273aff2e02cb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+        src={"https://images.unsplash.com/photo-1726491703674-018f676fa96b?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         showGradient={false}
       />
     </div>
